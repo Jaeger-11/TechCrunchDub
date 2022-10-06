@@ -1,0 +1,10 @@
+@import './variable';
+
+@mixin Flex($align:initial, $direction:initial, $gap:0, $pad: 0, $justify: initial) {
+    display: flex;
+    align-items: $align;
+    flex-direction: $direction;
+    gap: $gap;
+    padding: $pad;
+    justify-content: $justify;
+}
