@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Article = ({article}) => {
-    const { header, content, author, time, date } = article;
+    const { header, content, author, time, date, image } = article;
   return (
     <div className='content-container'>
         <article className='article'>
@@ -10,11 +10,10 @@ const Article = ({article}) => {
             <p>{time} {date}</p>
         </article>
         <p className='content'>
-            {content.substring(0,300)}...
+            {content.substring(0,250)}...
         </p>
         <div className='image'>
-            <p>IMAGE</p>
-            <img src="" alt="" />
+            <img src={image} alt="" />
         </div>
     </div>
   )

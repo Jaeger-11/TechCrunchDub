@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar';
 import '../App.scss';
 import BuyNow from '../components/BuyNow';
 import Articles from '../components/Articles';
-import Hero from '../components/hero';
+import Hero from '../components/Hero';
 
 const Home = () => {
   return (

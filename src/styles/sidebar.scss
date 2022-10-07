@@ -3,7 +3,7 @@
 
 .sidebar{
     height: 100vh;
-    @include Flex($direction:column, $gap:1.5rem, $justify:center, $pad:1rem);
+    @include Flex($direction:column, $gap:1.5rem, $justify:center, $pad:1rem 2rem);
     width: max-content;
     ul{
         @include Flex($direction:column, $gap: 1rem);

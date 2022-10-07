@@ -7,9 +7,9 @@ const Hero = () => {
     <div className="hero">
 
         <section className="hero-main">
-          <h2> Overwatch 2 launch marred by ongoing DDoS attacks </h2>  
+          <h1> Overwatch 2 launch marred by ongoing DDoS attacks </h1>  
           <p>Taylor Hatmaker</p>
-          <div>
+          <div className="img-cont">
             <img src={overwatch} alt="hero" />
           </div>
         </section>
@@ -17,7 +17,7 @@ const Hero = () => {
           {herodata.map((item) => {
             const { header, author } = item;
             return(
-              <article>
+              <article className="article">
                 <h2 className="header">{header}</h2>
                 <p>{author}</p>
               </article>
